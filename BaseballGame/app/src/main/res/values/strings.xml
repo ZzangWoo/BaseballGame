@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BaseballGame</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <style name="successText">
+        <item name="android:text">성공</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff3399</item>
+    </style>
+
+</resources>

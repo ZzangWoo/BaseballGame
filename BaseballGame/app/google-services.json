@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "830307455042",
+    "firebase_url": "https://baseballgame-816ff.firebaseio.com",
+    "project_id": "baseballgame-816ff",
+    "storage_bucket": "baseballgame-816ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830307455042:android:2acf64c779add8ec",
+        "android_client_info": {
+          "package_name": "com.zzangwoo.whdlw.baseballgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830307455042-n8ta688ja1gb75r59sq1uf9s74re300v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zzangwoo.whdlw.baseballgame",
+            "certificate_hash": "26284fbc5cbf7269d803f23f6b779dd356df8193"
+          }
+        },
+        {
+          "client_id": "830307455042-s5b7q086slo5hgq0e84d7lgcv1oq9p4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-TqC9aG8T8sPRHoO303D7B8Md5Hf_lw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830307455042-s5b7q086slo5hgq0e84d7lgcv1oq9p4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

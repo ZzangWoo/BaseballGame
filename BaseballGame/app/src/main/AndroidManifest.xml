@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zzangwoo.whdlw.baseballgame">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="짱우의 숫자야구"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2958953596451309~2610469246" />
+
+        <!-- 로딩화면 -->
+        <activity
+            android:name=".loadingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoadingTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".gameStart" />
+        <activity
+            android:name=".selectActivity"
+            android:theme="@style/AppTheme.selectActivity" />
+        <activity android:name=".gameStart_four" />
+        <activity
+            android:name=".finishSelect"
+            android:theme="@style/AppTheme.selectActivity" />
+        <activity android:name=".gameStart_five" />
+        <activity android:name=".rankingActivity" />
+        <activity
+            android:name=".rankingSelect"
+            android:theme="@style/AppTheme.selectActivity" />
+        <activity android:name=".howtoActivity" />
+        <activity
+            android:name=".gamemodeselectActivity"
+            android:theme="@style/AppTheme.selectActivity" />
+        <activity
+            android:name=".time_attackSelectActivity"
+            android:theme="@style/AppTheme.selectActivity" />
+        <activity android:name=".time_attack_ThreeNum" />
+        <activity android:name=".time_attack_ThreeGame" />
+        <activity
+            android:name=".time_attack_finishActivity"
+            android:theme="@style/AppTheme.noClosePopUp" />
+        <activity
+            android:name=".time_attack_FailActivity"
+            android:theme="@style/AppTheme.noClosePopUp" />
+        <activity android:name=".time_attack_FourGame" />
+        <activity android:name=".time_attack_FiveGame" />
+        <activity android:name=".time_attack_FourNum" />
+        <activity android:name=".time_attack_FiveNum"></activity>
+
+        <service android:name=".MyMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>
