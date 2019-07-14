@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
+
 public class howtoActivity extends AppCompatActivity {
 
     int buttonCount = 0; // 이전, 다음 버튼 누른 횟수 카운트

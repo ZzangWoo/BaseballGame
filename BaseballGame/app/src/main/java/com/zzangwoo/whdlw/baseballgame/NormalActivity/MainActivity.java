@@ -1,4 +1,4 @@
-package com.zzangwoo.whdlw.baseballgame;
+package com.zzangwoo.whdlw.baseballgame.NormalActivity;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -10,6 +10,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.zzangwoo.whdlw.baseballgame.R;
+import com.zzangwoo.whdlw.baseballgame.gamemodeselectActivity;
+import com.zzangwoo.whdlw.baseballgame.howtoActivity;
+import com.zzangwoo.whdlw.baseballgame.rankingSelect;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        ////////////// 배경이미지 반투명 //////////////
+        /*///////////// 배경이미지 반투명 //////////////
         Drawable alpha = ((ImageView)findViewById(R.id.firstBackground)).getBackground();
         alpha.setAlpha(80);
-        /////////////////////////////////////////////
+        ////////////////////////////////////////////*/
 
         Button startButton = (Button) findViewById(R.id.startButton);
         Button exitButton = (Button) findViewById(R.id.exitButton);
@@ -58,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         });
         //////////////////////////////////////////////////////////////////////////////////
 
-        ////////////////////////// 랭킹 버튼 누를 때 //////////////////////////////////////
+        /*///////////////////////// 랭킹 버튼 누를 때 //////////////////////////////////////
         rankingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -66,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////*/
 
         exitButton.setOnClickListener(new View.OnClickListener() {
             @Override

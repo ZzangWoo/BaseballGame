@@ -12,6 +12,8 @@ import android.text.style.RelativeSizeSpan;
 import android.view.View;
 import android.widget.Button;
 
+import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
+
 public class time_attack_FourNum extends AppCompatActivity implements View.OnClickListener {
 
     ////////////////////////// 버튼 안의 Text 바꿔줄 재료들 //////////////////////////////

@@ -1,6 +1,5 @@
 package com.zzangwoo.whdlw.baseballgame;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -17,8 +16,8 @@ import android.widget.Toast;
 ////////////////// 광고넣기에 필요한 import ////////////////////
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
 //////////////////////////////////////////////////////////////
 
 //////////////// 타이머에 타이머에 필요한 코드 ///////////////////

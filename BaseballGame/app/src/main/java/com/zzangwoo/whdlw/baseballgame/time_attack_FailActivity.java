@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
 
 public class time_attack_FailActivity extends AppCompatActivity {
 

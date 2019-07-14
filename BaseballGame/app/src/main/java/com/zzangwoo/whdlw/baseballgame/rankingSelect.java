@@ -30,6 +30,7 @@ public class rankingSelect extends AppCompatActivity {
         Drawable alpha = ((ImageView)findViewById(R.id.rankingSelectBackground)).getBackground();
         alpha.setAlpha(80);
 
+        /*
         three.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,5 +46,6 @@ public class rankingSelect extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        */
     }
 }

@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d8e9ef"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:padding="16dp"
+    tools:context=".NormalActivity.MainActivity">
 
     <!--
     <LinearLayout
@@ -25,22 +27,25 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5">
+        android:layout_weight="5"
+        android:layout_margin="20dp">
 
         <ImageView
             android:id="@+id/firstBackground"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/first_background" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseball_main" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ver 1.2"
-            android:textSize="20dp"
-            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"/>
+            android:fontFamily="@font/nanum"
+            android:text="@string/versionTextView"
+            android:textColor="#5c196b"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
@@ -48,33 +53,50 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
-        android:background="#bebebe"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:layout_margin="20dp">
 
         <Button
             android:id="@+id/startButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
             android:layout_weight="1"
-            android:text="게임시작"
-            android:textSize="40dp"/>
+            android:background="@drawable/button_custom"
+            android:fontFamily="@font/nanum"
+            android:text="@string/gameStartButton"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/howtoButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
             android:layout_weight="1"
-            android:text="게임방법"
-            android:textSize="40dp"/>
+            android:background="@drawable/button_custom"
+            android:fontFamily="@font/nanum"
+            android:text="@string/gameWayButton"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
 
 
         <Button
             android:id="@+id/rankingButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
             android:layout_weight="1"
-            android:text="랭        킹"
-            android:textSize="40dp"/>
+            android:background="@drawable/button_custom"
+            android:fontFamily="@font/nanum"
+            android:text="@string/gameRankingButton"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
 
 
         <Button
@@ -82,8 +104,12 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="게임종료"
-            android:textSize="40dp"/>
+            android:background="@drawable/button_custom"
+            android:fontFamily="@font/nanum"
+            android:text="@string/gameExitButton"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 

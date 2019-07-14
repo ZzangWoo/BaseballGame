@@ -18,12 +18,12 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
 //////////////////////////////////////////////////////////////
 
 //////////////// 타이머에 타이머에 필요한 코드 ///////////////////
 import android.os.Handler;
 import android.os.Message;
-import android.view.View;
 //////////////////////////////////////////////////////////////
 
 import java.util.Random;

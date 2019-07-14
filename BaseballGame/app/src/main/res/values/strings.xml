@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">BaseballGame</string>
 
+    <!--************************** Button Text **************************-->
+    <string name="gameStartButton">게임시작</string>
+    <string name="gameWayButton">게임방법</string>
+    <string name="gameRankingButton">게임순위</string>
+    <string name="gameExitButton">게임종료</string>
+    <!--*****************************************************************-->
+
+    <!--************************** TextView Text **************************-->
+    <string name="versionTextView">Ver 1.0</string>
+    <!--*******************************************************************-->
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

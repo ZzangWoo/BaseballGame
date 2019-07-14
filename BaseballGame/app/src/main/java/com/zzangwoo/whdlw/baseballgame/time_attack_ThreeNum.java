@@ -7,13 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableString;
-import android.text.Spanned;
-import android.text.style.AbsoluteSizeSpan;
-import android.text.style.BackgroundColorSpan;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.view.View;
 import android.widget.Button;
+
+import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
 
 public class time_attack_ThreeNum extends AppCompatActivity implements View.OnClickListener {
 

@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".NormalActivity.MainActivity" />
         <activity android:name=".gameStart" />
         <activity
             android:name=".selectActivity"
@@ -38,7 +38,6 @@
             android:name=".finishSelect"
             android:theme="@style/AppTheme.selectActivity" />
         <activity android:name=".gameStart_five" />
-        <activity android:name=".rankingActivity" />
         <activity
             android:name=".rankingSelect"
             android:theme="@style/AppTheme.selectActivity" />

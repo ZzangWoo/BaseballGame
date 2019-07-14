@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
+
 public class finishSelect extends AppCompatActivity {
 
     @Override
@@ -47,10 +49,10 @@ public class finishSelect extends AppCompatActivity {
         this.setFinishOnTouchOutside(false); // 액티비티 밖을 클릭해도 종료안됨
         ///////////////////////////////////////////////////////////////////////////////
 
-        Fragment fragment = new countFragment();
+       // Fragment fragment = new countFragment();
         Bundle bundle = new Bundle();
         bundle.putInt("count", count_text);
-        fragment.setArguments(bundle);
+        //fragment.setArguments(bundle);
 
         ///////////////////// 예 버튼 누를 때 /////////////////////////////////
         yesButton.setOnClickListener(new View.OnClickListener() {
