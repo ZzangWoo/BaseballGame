@@ -1,13 +1,13 @@
-package com.zzangwoo.whdlw.baseballgame;
+package com.zzangwoo.whdlw.baseballgame.SelectActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
+
+import com.zzangwoo.whdlw.baseballgame.R;
 
 public class gamemodeselectActivity extends AppCompatActivity {
 
@@ -22,10 +22,7 @@ public class gamemodeselectActivity extends AppCompatActivity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width * 0.8), (int) (height * 0.75));
-
-        Drawable alpha = ((ImageView)findViewById(R.id.gamemodeselectBackground)).getBackground();
-        alpha.setAlpha(80);
+        getWindow().setLayout((int) (width * 0.7), (int) (height * 0.65));
 
         Button normal_gameButton = (Button) findViewById(R.id.normal_gameButton);
         Button time_attackButton = (Button) findViewById(R.id.time_attackButton);

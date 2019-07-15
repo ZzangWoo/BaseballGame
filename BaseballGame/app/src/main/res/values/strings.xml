@@ -6,14 +6,24 @@
     <string name="gameWayButton">게임방법</string>
     <string name="gameRankingButton">게임순위</string>
     <string name="gameExitButton">게임종료</string>
+    <string name="num3Button">3자리 수</string>
+    <string name="num4Button">4자리 수</string>
+    <string name="num5Button">5자리 수</string>
+    <string name="previousButton">이전</string>
+    <string name="homeButton">홈으로</string>
+    <string name="nextButton">다음</string>
     <!--*****************************************************************-->
 
     <!--************************** TextView Text **************************-->
     <string name="versionTextView">Ver 1.0</string>
+    <string name="normalGameTextView">일 반 게 임</string>
+    <string name="timeAttackGameTextView">타 임 어 택</string>
     <!--*******************************************************************-->
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 
     <style name="successText">
         <item name="android:text">성공</item>

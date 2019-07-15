@@ -1,4 +1,4 @@
-package com.zzangwoo.whdlw.baseballgame;
+package com.zzangwoo.whdlw.baseballgame.SelectActivity;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -9,6 +9,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.zzangwoo.whdlw.baseballgame.R;
+import com.zzangwoo.whdlw.baseballgame.time_attack_FiveNum;
+import com.zzangwoo.whdlw.baseballgame.time_attack_FourNum;
+import com.zzangwoo.whdlw.baseballgame.time_attack_ThreeNum;
 
 public class time_attackSelectActivity extends AppCompatActivity {
 
@@ -23,7 +28,7 @@ public class time_attackSelectActivity extends AppCompatActivity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width * 0.8), (int) (height * 0.75));
+        getWindow().setLayout((int) (width * 0.7), (int) (height * 0.65));
 
         Button time_attackButton3 = (Button) findViewById(R.id.time_attackButton3);
         Button time_attackButton4 = (Button) findViewById(R.id.time_attackButton4);

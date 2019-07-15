@@ -1,4 +1,4 @@
-package com.zzangwoo.whdlw.baseballgame;
+package com.zzangwoo.whdlw.baseballgame.NormalActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
+import com.zzangwoo.whdlw.baseballgame.R;
 
 public class howtoActivity extends AppCompatActivity {
 

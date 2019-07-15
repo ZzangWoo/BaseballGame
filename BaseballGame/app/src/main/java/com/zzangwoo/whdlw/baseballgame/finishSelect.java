@@ -1,6 +1,5 @@
 package com.zzangwoo.whdlw.baseballgame;
 
-import android.app.Fragment;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.zzangwoo.whdlw.baseballgame.NormalActivity.MainActivity;
+import com.zzangwoo.whdlw.baseballgame.SelectActivity.selectActivity;
 
 public class finishSelect extends AppCompatActivity {
 

@@ -31,7 +31,7 @@
         <activity android:name=".NormalActivity.MainActivity" />
         <activity android:name=".gameStart" />
         <activity
-            android:name=".selectActivity"
+            android:name=".SelectActivity.selectActivity"
             android:theme="@style/AppTheme.selectActivity" />
         <activity android:name=".gameStart_four" />
         <activity
@@ -41,12 +41,12 @@
         <activity
             android:name=".rankingSelect"
             android:theme="@style/AppTheme.selectActivity" />
-        <activity android:name=".howtoActivity" />
+        <activity android:name=".NormalActivity.howtoActivity" />
         <activity
-            android:name=".gamemodeselectActivity"
+            android:name=".SelectActivity.gamemodeselectActivity"
             android:theme="@style/AppTheme.selectActivity" />
         <activity
-            android:name=".time_attackSelectActivity"
+            android:name=".SelectActivity.time_attackSelectActivity"
             android:theme="@style/AppTheme.selectActivity" />
         <activity android:name=".time_attack_ThreeNum" />
         <activity android:name=".time_attack_ThreeGame" />

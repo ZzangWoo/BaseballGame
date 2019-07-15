@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d8e9ef"
     android:orientation="vertical"
-    tools:context=".time_attackSelectActivity">
+    android:padding="16dp"
+    tools:context=".SelectActivity.time_attackSelectActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
+        android:layout_margin="20dp"
+        android:layout_weight="5"
         android:alpha="0.8"
         android:background="@drawable/first_background"
         android:orientation="vertical">
@@ -26,14 +29,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="#d8e9ef">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="@font/nanum"
                 android:gravity="center"
-                android:text="타   임   어   택"
-                android:textColor="@android:color/black"
+                android:text="@string/timeAttackGameTextView"
+                android:textColor="#536dfe"
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
@@ -52,32 +57,49 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="6"
+        android:layout_margin="20dp"
+        android:layout_weight="5"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/time_attackButton3"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
             android:layout_weight="1"
-            android:text="3자리 수"
-            android:textSize="40dp" />
+            android:background="@drawable/button_custom"
+            android:fontFamily="@font/nanum"
+            android:text="@string/num3Button"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/time_attackButton4"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
             android:layout_weight="1"
-            android:text="4자리 수"
-            android:textSize="40dp" />
+            android:background="@drawable/button_custom"
+            android:fontFamily="@font/nanum"
+            android:text="@string/num4Button"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/time_attackButton5"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
             android:layout_weight="1"
-            android:text="5자리 수"
-            android:textSize="40dp" />
+            android:background="@drawable/button_custom"
+            android:fontFamily="@font/nanum"
+            android:text="@string/num5Button"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"  />
 
     </LinearLayout>
 

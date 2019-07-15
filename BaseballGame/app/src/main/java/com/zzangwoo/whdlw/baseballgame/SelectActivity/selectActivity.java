@@ -1,4 +1,4 @@
-package com.zzangwoo.whdlw.baseballgame;
+package com.zzangwoo.whdlw.baseballgame.SelectActivity;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -8,6 +8,11 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.zzangwoo.whdlw.baseballgame.R;
+import com.zzangwoo.whdlw.baseballgame.gameStart;
+import com.zzangwoo.whdlw.baseballgame.gameStart_five;
+import com.zzangwoo.whdlw.baseballgame.gameStart_four;
 
 public class selectActivity extends AppCompatActivity {
 
@@ -22,7 +27,7 @@ public class selectActivity extends AppCompatActivity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width * 0.8), (int) (height * 0.75));
+        getWindow().setLayout((int) (width * 0.7), (int) (height * 0.65));
 
         Button three = (Button) findViewById(R.id.threeLineNum);
         Button four = (Button) findViewById(R.id.fourLineNum);

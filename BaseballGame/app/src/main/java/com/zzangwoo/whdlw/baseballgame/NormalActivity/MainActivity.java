@@ -3,18 +3,14 @@ package com.zzangwoo.whdlw.baseballgame.NormalActivity;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 import com.zzangwoo.whdlw.baseballgame.R;
-import com.zzangwoo.whdlw.baseballgame.gamemodeselectActivity;
-import com.zzangwoo.whdlw.baseballgame.howtoActivity;
-import com.zzangwoo.whdlw.baseballgame.rankingSelect;
+import com.zzangwoo.whdlw.baseballgame.SelectActivity.gamemodeselectActivity;
 
 public class MainActivity extends AppCompatActivity {
 
